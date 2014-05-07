@@ -1,0 +1,11 @@
+/*! 这是第1个文件*/
+.main{
+	width: 100%;
+	border:1px solid #ccc;
+}
+/* 左边*/
+.left{
+	width:100px;
+	color: #ddd;
+	font-family: "微软雅黑";
+}

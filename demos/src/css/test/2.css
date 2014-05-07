@@ -1,0 +1,11 @@
+/*! 这是第2个文件*/
+.main2{
+	width: 50%;
+	border:2px solid #ccc;
+}
+/* 右边*/
+.right{
+	width:200px;
+	color: #ddd;
+	font-family: "宋体";
+}
