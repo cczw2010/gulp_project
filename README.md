@@ -4,12 +4,14 @@
 
 下载完成压缩包解压后，在压缩包根目录下（package.json所在目录）执行：`npm install` 安装所有依赖包（好像不少。。）
 
-安装完成后直接运行：`gulp`执行默认测试工程（demos中是测试工程目录结构），配置自己的工程可以修改`gulpfile.js` 当然也可以建立多个`gulpfilexxxx.js`工程文件，运行`gulp --gulpfile gulpfilexxxx.js`来执行指定的工程
+安装完成后直接运行：`gulp`执行默认测试工程（demos中是测试工程目录结构），配置自己的工程可以修改`gulpfile.js`中相关的地址配置部分
+
+当然也可以建立多个`gulpfilexxxx.js`工程文件，运行`gulp --gulpfile gulpfilexxxx.js`来执行指定的工程
 
 
 ##目录结构
 
-		目录说明（一下的目录如果不是默认的，那么请修改gulpfile.js中各自的目录地址）
+		目录说明（以下是测试工程的目录，可以根据自己的实际工程修改gulpfile.js中的文件目录配置部分即可）
 		+ src 目录为所有的源码目录
 				↳ html 静态html文件目录
 				↳ css css源码文件目录
